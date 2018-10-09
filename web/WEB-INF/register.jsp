@@ -23,8 +23,8 @@
                <div role="alert">${info}</div>
             </c:if>
                     
-            <form  action="/shoppinglist" method="post">
-            <input type="hidden" name="action" value="register">
+            <form  action="shoppingList" method="post">
+            Username: <input type="hidden" name="action" value="register">
             <input type="text" name="username" id="username">
             <input type="submit" value="Register">
             </form>
